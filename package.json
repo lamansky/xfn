@@ -1,0 +1,49 @@
+{
+  "name": "xfn",
+  "version": "1.0.0",
+  "description": "Extends a function object with configured versions of itself.",
+  "keywords": [
+    "extend",
+    "function",
+    "property",
+    "plural",
+    "options",
+    "presets"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/xfn",
+  "repository": "lamansky/xfn",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "@lamansky/is-number": "^1.0.0",
+    "array-pad": "0.0.1",
+    "arrify": "^1.0.1",
+    "entries-iterator": "^1.4.0",
+    "is-plain-object": "^2.0.4",
+    "jfn": "^1.0.0",
+    "plainify": "^1.0.0",
+    "qfn": "^1.0.1",
+    "sbo": "^1.1.0",
+    "unarray": "^1.0.0",
+    "wfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "equals": "^1.0.5",
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
